@@ -27,7 +27,7 @@ root.title("Random Password Generator")
 root.configure(bg="#E6E6FA") 
 root.geometry('500x300')
 # Widgets
-tk.Label(root, text="Enter password length:", font =("red",15)).pack(pady=10)
+tk.Label(root, text="Enter password length:", font =15).pack(pady=10)
 entry = tk.Entry(root)
 entry.pack(pady=10)
 
